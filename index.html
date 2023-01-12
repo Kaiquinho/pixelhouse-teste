@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro PixelHouse</title>
+</head>
+<body>
+
+    <main class="main_content"> <!--Borda do formulario-->
+
+        <section class="main_form_content"> <!--Conteudo a ser preenchido-->
+            <form class="form_inputs" action="table.html">
+                    <h1>Sign in</h1>
+                        <div class="info">
+                            <div class="name_input">
+                                <label for="fullname">Nome completo:</label><br>
+                                <input type="text" id="fullname" name="fullname" required><br><br>
+                            </div>
+                            <div class="birthdate_input">
+                                <label for="birthdate">Data de nascimento:</label><br>
+                                <input type="date" id="birthdate" name="birthdate" required><br><br>
+                            </div>
+                            <div class="email_input">
+                                <label for="email">Email:</label><br>
+                                <input type="email" id="email" name="email" required><br><br>
+                            </div>
+                            <div class="password_input">
+                                <label for="password">Senha:</label><br>
+                                <input type="password" id="password" name="password" required><br><br>
+                            </div>
+                        </div>
+                
+                        <div class="submit_input">
+                            <input type="submit" value="Cadastrar">
+                        </div>
+            </form>
+        </section>
+
+    </main>
+
+<script src="script.js"></script>
+</body>
+</html>
